@@ -17,3 +17,9 @@ Calibration belongs to the physical camera/robot setup used to record it.
 `SHA256SUMS.txt` verifies each archive volume. `FULL_FOLDER_MANIFEST.json`
 records the path, byte length and SHA256 of every original file, including
 the model. GitHub's automatic Source code ZIP does not contain large binaries.
+
+Optional bulk download with authenticated GitHub CLI:
+
+gh release download complete-folder-2026-11-21 --repo edming091092/robot-arm --pattern "robot-arm-full.7z.*" --pattern "SHA256SUMS.txt" --dir robot-arm-download
+
+Use gh auth login first if required. Then extract robot-arm-full.7z.001 with 7-Zip.
