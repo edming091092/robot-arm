@@ -1,5 +1,7 @@
 # Robot Arm
 
+> **Complete folder including sam3.pt:** [Download all archive volumes](https://github.com/edming091092/robot-arm/releases/tag/full-folder-2026-11-21) and extract `.001` with 7-Zip. See [full download instructions](FULL_DOWNLOAD.md).
+
 English desktop interface for SAM3 text-prompt segmentation, calibrated camera-to-robot XY conversion, and Dobot MG400 movement to a manually entered Z.
 
 ## Install (Windows)
@@ -18,7 +20,7 @@ CPU is the default. For a compatible NVIDIA GPU:
 python code/sam3_runtime.py --install --device cuda
 ```
 
-Select `.venv/Scripts/python.exe` as the VS Code interpreter. Put your separately obtained SAM3 checkpoint in `models/sam3.pt`, or choose its location in the interface. Model weights, installers, local images and calibration sessions are not included.
+Select `.venv/Scripts/python.exe` as the VS Code interpreter. Put your separately obtained SAM3 checkpoint in `models/sam3.pt`, or choose its location in the interface. The complete release includes model weights, installers, images and calibration sessions. The automatic Source code ZIP excludes large binaries; use the full release download below.
 
 ## Start
 

@@ -1,0 +1,380 @@
+{
+  "prompt": "coin",
+  "confidence_threshold": 0.35,
+  "model_file": "sam3.pt",
+  "device": "0",
+  "image_size": [
+    3840,
+    2160
+  ],
+  "image_pixel_sha256": "0f769e6825262af35909cc86c6c8c6fe165693e5da13e15025f451b556fea60e",
+  "object_count": 30,
+  "elapsed_seconds": 80.55649679999988,
+  "objects": [
+    {
+      "id": 1,
+      "confidence": 0.95263671875,
+      "area_pixels": 16370,
+      "bbox_xyxy_pixels": [
+        1487,
+        1549,
+        1633,
+        1690
+      ],
+      "mask_file": "masks/object_001.png"
+    },
+    {
+      "id": 2,
+      "confidence": 0.9462890625,
+      "area_pixels": 15961,
+      "bbox_xyxy_pixels": [
+        1479,
+        1186,
+        1622,
+        1325
+      ],
+      "mask_file": "masks/object_002.png"
+    },
+    {
+      "id": 3,
+      "confidence": 0.93603515625,
+      "area_pixels": 13846,
+      "bbox_xyxy_pixels": [
+        1733,
+        207,
+        1874,
+        333
+      ],
+      "mask_file": "masks/object_003.png"
+    },
+    {
+      "id": 4,
+      "confidence": 0.935546875,
+      "area_pixels": 14219,
+      "bbox_xyxy_pixels": [
+        2334,
+        1604,
+        2466,
+        1736
+      ],
+      "mask_file": "masks/object_004.png"
+    },
+    {
+      "id": 5,
+      "confidence": 0.935546875,
+      "area_pixels": 8957,
+      "bbox_xyxy_pixels": [
+        1771,
+        1660,
+        1879,
+        1767
+      ],
+      "mask_file": "masks/object_005.png"
+    },
+    {
+      "id": 6,
+      "confidence": 0.93359375,
+      "area_pixels": 13848,
+      "bbox_xyxy_pixels": [
+        2071,
+        1284,
+        2203,
+        1416
+      ],
+      "mask_file": "masks/object_006.png"
+    },
+    {
+      "id": 7,
+      "confidence": 0.93310546875,
+      "area_pixels": 9042,
+      "bbox_xyxy_pixels": [
+        1906,
+        1446,
+        2018,
+        1548
+      ],
+      "mask_file": "masks/object_007.png"
+    },
+    {
+      "id": 8,
+      "confidence": 0.9267578125,
+      "area_pixels": 8585,
+      "bbox_xyxy_pixels": [
+        1179,
+        1473,
+        1284,
+        1574
+      ],
+      "mask_file": "masks/object_008.png"
+    },
+    {
+      "id": 9,
+      "confidence": 0.9267578125,
+      "area_pixels": 8206,
+      "bbox_xyxy_pixels": [
+        1017,
+        1854,
+        1118,
+        1956
+      ],
+      "mask_file": "masks/object_009.png"
+    },
+    {
+      "id": 10,
+      "confidence": 0.9267578125,
+      "area_pixels": 10019,
+      "bbox_xyxy_pixels": [
+        2064,
+        1632,
+        2173,
+        1746
+      ],
+      "mask_file": "masks/object_010.png"
+    },
+    {
+      "id": 11,
+      "confidence": 0.92529296875,
+      "area_pixels": 8459,
+      "bbox_xyxy_pixels": [
+        1897,
+        1214,
+        2001,
+        1317
+      ],
+      "mask_file": "masks/object_011.png"
+    },
+    {
+      "id": 12,
+      "confidence": 0.92431640625,
+      "area_pixels": 7795,
+      "bbox_xyxy_pixels": [
+        1431,
+        1880,
+        1530,
+        1979
+      ],
+      "mask_file": "masks/object_012.png"
+    },
+    {
+      "id": 13,
+      "confidence": 0.9208984375,
+      "area_pixels": 8208,
+      "bbox_xyxy_pixels": [
+        1240,
+        1728,
+        1342,
+        1830
+      ],
+      "mask_file": "masks/object_013.png"
+    },
+    {
+      "id": 14,
+      "confidence": 0.9189453125,
+      "area_pixels": 9422,
+      "bbox_xyxy_pixels": [
+        886,
+        1528,
+        997,
+        1635
+      ],
+      "mask_file": "masks/object_014.png"
+    },
+    {
+      "id": 15,
+      "confidence": 0.9169921875,
+      "area_pixels": 8717,
+      "bbox_xyxy_pixels": [
+        2702,
+        1429,
+        2808,
+        1532
+      ],
+      "mask_file": "masks/object_015.png"
+    },
+    {
+      "id": 16,
+      "confidence": 0.91650390625,
+      "area_pixels": 8453,
+      "bbox_xyxy_pixels": [
+        2676,
+        1189,
+        2779,
+        1293
+      ],
+      "mask_file": "masks/object_016.png"
+    },
+    {
+      "id": 17,
+      "confidence": 0.9013671875,
+      "area_pixels": 13366,
+      "bbox_xyxy_pixels": [
+        2378,
+        1025,
+        2510,
+        1154
+      ],
+      "mask_file": "masks/object_017.png"
+    },
+    {
+      "id": 18,
+      "confidence": 0.8984375,
+      "area_pixels": 12058,
+      "bbox_xyxy_pixels": [
+        1112,
+        1027,
+        1234,
+        1147
+      ],
+      "mask_file": "masks/object_018.png"
+    },
+    {
+      "id": 19,
+      "confidence": 0.8876953125,
+      "area_pixels": 12664,
+      "bbox_xyxy_pixels": [
+        2202,
+        763,
+        2335,
+        886
+      ],
+      "mask_file": "masks/object_019.png"
+    },
+    {
+      "id": 20,
+      "confidence": 0.88720703125,
+      "area_pixels": 9718,
+      "bbox_xyxy_pixels": [
+        1531,
+        908,
+        1644,
+        1015
+      ],
+      "mask_file": "masks/object_020.png"
+    },
+    {
+      "id": 21,
+      "confidence": 0.87646484375,
+      "area_pixels": 11402,
+      "bbox_xyxy_pixels": [
+        2471,
+        316,
+        2596,
+        434
+      ],
+      "mask_file": "masks/object_021.png"
+    },
+    {
+      "id": 22,
+      "confidence": 0.8759765625,
+      "area_pixels": 12046,
+      "bbox_xyxy_pixels": [
+        2072,
+        231,
+        2202,
+        350
+      ],
+      "mask_file": "masks/object_022.png"
+    },
+    {
+      "id": 23,
+      "confidence": 0.875,
+      "area_pixels": 9649,
+      "bbox_xyxy_pixels": [
+        2605,
+        733,
+        2718,
+        844
+      ],
+      "mask_file": "masks/object_023.png"
+    },
+    {
+      "id": 24,
+      "confidence": 0.8740234375,
+      "area_pixels": 13291,
+      "bbox_xyxy_pixels": [
+        2364,
+        745,
+        2498,
+        872
+      ],
+      "mask_file": "masks/object_024.png"
+    },
+    {
+      "id": 25,
+      "confidence": 0.869140625,
+      "area_pixels": 11336,
+      "bbox_xyxy_pixels": [
+        2591,
+        229,
+        2716,
+        344
+      ],
+      "mask_file": "masks/object_025.png"
+    },
+    {
+      "id": 26,
+      "confidence": 0.86328125,
+      "area_pixels": 7461,
+      "bbox_xyxy_pixels": [
+        1823,
+        492,
+        1924,
+        588
+      ],
+      "mask_file": "masks/object_026.png"
+    },
+    {
+      "id": 27,
+      "confidence": 0.859375,
+      "area_pixels": 11617,
+      "bbox_xyxy_pixels": [
+        2820,
+        326,
+        2948,
+        442
+      ],
+      "mask_file": "masks/object_027.png"
+    },
+    {
+      "id": 28,
+      "confidence": 0.85693359375,
+      "area_pixels": 13986,
+      "bbox_xyxy_pixels": [
+        1923,
+        721,
+        2060,
+        848
+      ],
+      "mask_file": "masks/object_028.png"
+    },
+    {
+      "id": 29,
+      "confidence": 0.85400390625,
+      "area_pixels": 9565,
+      "bbox_xyxy_pixels": [
+        1888,
+        1024,
+        2000,
+        1133
+      ],
+      "mask_file": "masks/object_029.png"
+    },
+    {
+      "id": 30,
+      "confidence": 0.85302734375,
+      "area_pixels": 13233,
+      "bbox_xyxy_pixels": [
+        2855,
+        756,
+        2986,
+        884
+      ],
+      "mask_file": "masks/object_030.png"
+    }
+  ],
+  "notes": [
+    "Image segmentation only; no robot or coordinate mapping.",
+    "Prompt matches are model predictions, not verified labels."
+  ],
+  "source_image": "D:\\MG400_單相機新手教學\\examples\\scene.png"
+}

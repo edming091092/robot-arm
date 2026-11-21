@@ -9,5 +9,20 @@
   "min_mask_pixels": 100,
   "calibration_max_error_mm": 2.0,
   "safe_z_mm": null,
-  "pickup_workspace_mm": null
+  "pick_z_mm": null,
+  "r_deg": null,
+  "workspace_mm": {
+    "x": [-50, 50],
+    "y": [200, 300],
+    "z": [0, 50]
+  },
+  "pickup_workspace_mm": null,
+  "place_pose": null,
+  "vacuum_do": null,
+  "vacuum_on": 1,
+  "vacuum_di": null,
+  "vacuum_ok": 1,
+  "vacuum_verified": false,
+  "commissioned": false,
+  "plan_max_age_s": 180
 }

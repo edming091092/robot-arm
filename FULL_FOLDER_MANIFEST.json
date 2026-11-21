@@ -1,0 +1,1342 @@
+[
+  {
+    "path": "calibration/chessboard_check.png",
+    "bytes": 149693,
+    "sha256": "573641445d85e038e09671d40d07a352a0b97ba55eb686e92ff7d67830c7dea5"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_174430_118048/camera_calibration.json",
+    "bytes": 5921,
+    "sha256": "5781ea9eb0933c89ad3c1b6eccf8a11ecf828c78b0716869432fa48280903d63"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_174430_118048/conversion_preview.csv",
+    "bytes": 1101,
+    "sha256": "3b9fa94e1e7af3ac4a852e6f209b9a0ac4c023f0e7a1e10afac00e6be8dc41ce"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_174430_118048/points.csv",
+    "bytes": 785,
+    "sha256": "eab75a73471ac146770e96610a0e420204b1d40bc27c619d029b5ba1df62a53e"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_174430_118048/robot_xy_mapping.json",
+    "bytes": 5751,
+    "sha256": "5478cf95eff8ff212bf4ca609816fbe14b7f5ba35732cdac281800c87d8ce7dc"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_174430_118048/snapshots/point_001.png",
+    "bytes": 1014024,
+    "sha256": "d4efdf1a3648f8f3148503b213496f9d38bcae62075d35643ce47548b7fcdcab"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_174430_118048/snapshots/point_002.png",
+    "bytes": 1016374,
+    "sha256": "b6628013c5b818b2ac8b43587b0187d9b2391bb7934465bb684b4a8f8bc24053"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_174430_118048/snapshots/point_003.png",
+    "bytes": 990093,
+    "sha256": "48a11284dde3dab4d0040ae147c7d9312b7dc2be789f2cbaf4961aeac3e57239"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_174430_118048/snapshots/point_004.png",
+    "bytes": 990093,
+    "sha256": "48a11284dde3dab4d0040ae147c7d9312b7dc2be789f2cbaf4961aeac3e57239"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_174430_118048/snapshots/point_005.png",
+    "bytes": 990093,
+    "sha256": "48a11284dde3dab4d0040ae147c7d9312b7dc2be789f2cbaf4961aeac3e57239"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_174430_118048/snapshots/point_006.png",
+    "bytes": 990093,
+    "sha256": "48a11284dde3dab4d0040ae147c7d9312b7dc2be789f2cbaf4961aeac3e57239"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_174430_118048/snapshots/point_007.png",
+    "bytes": 990093,
+    "sha256": "48a11284dde3dab4d0040ae147c7d9312b7dc2be789f2cbaf4961aeac3e57239"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_174430_118048/snapshots/point_008.png",
+    "bytes": 990093,
+    "sha256": "48a11284dde3dab4d0040ae147c7d9312b7dc2be789f2cbaf4961aeac3e57239"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_174430_118048/snapshots/point_009.png",
+    "bytes": 990093,
+    "sha256": "48a11284dde3dab4d0040ae147c7d9312b7dc2be789f2cbaf4961aeac3e57239"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_175435_070168/camera_calibration.json",
+    "bytes": 5921,
+    "sha256": "5781ea9eb0933c89ad3c1b6eccf8a11ecf828c78b0716869432fa48280903d63"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_175435_070168/points.csv",
+    "bytes": 785,
+    "sha256": "eab75a73471ac146770e96610a0e420204b1d40bc27c619d029b5ba1df62a53e"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_175435_070168/robot_xy_mapping.json",
+    "bytes": 5826,
+    "sha256": "2a7b58b0312369fba1fe5ec5b8c59d99f9cbedceb9f41c155fe945cbaa7260fd"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_175435_070168/snapshots/point_001.png",
+    "bytes": 1014024,
+    "sha256": "d4efdf1a3648f8f3148503b213496f9d38bcae62075d35643ce47548b7fcdcab"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_175435_070168/snapshots/point_002.png",
+    "bytes": 1016374,
+    "sha256": "b6628013c5b818b2ac8b43587b0187d9b2391bb7934465bb684b4a8f8bc24053"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_175435_070168/snapshots/point_003.png",
+    "bytes": 990093,
+    "sha256": "48a11284dde3dab4d0040ae147c7d9312b7dc2be789f2cbaf4961aeac3e57239"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_175435_070168/snapshots/point_004.png",
+    "bytes": 990093,
+    "sha256": "48a11284dde3dab4d0040ae147c7d9312b7dc2be789f2cbaf4961aeac3e57239"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_175435_070168/snapshots/point_005.png",
+    "bytes": 990093,
+    "sha256": "48a11284dde3dab4d0040ae147c7d9312b7dc2be789f2cbaf4961aeac3e57239"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_175435_070168/snapshots/point_006.png",
+    "bytes": 990093,
+    "sha256": "48a11284dde3dab4d0040ae147c7d9312b7dc2be789f2cbaf4961aeac3e57239"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_175435_070168/snapshots/point_007.png",
+    "bytes": 990093,
+    "sha256": "48a11284dde3dab4d0040ae147c7d9312b7dc2be789f2cbaf4961aeac3e57239"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_175435_070168/snapshots/point_008.png",
+    "bytes": 990093,
+    "sha256": "48a11284dde3dab4d0040ae147c7d9312b7dc2be789f2cbaf4961aeac3e57239"
+  },
+  {
+    "path": "calibration/robot_xy_20261105_175435_070168/snapshots/point_009.png",
+    "bytes": 990093,
+    "sha256": "48a11284dde3dab4d0040ae147c7d9312b7dc2be789f2cbaf4961aeac3e57239"
+  },
+  {
+    "path": "calibration/robot_xy_20261121_105637_058163/camera_calibration.json",
+    "bytes": 8418,
+    "sha256": "bf6466938093046161045ff32d1f39b17fefadcaa2b55065eb6c283cd2139ed5"
+  },
+  {
+    "path": "calibration/robot_xy_20261121_105637_058163/points.csv",
+    "bytes": 113,
+    "sha256": "dbf866cddf024f286824a152eb6f093acfe485c5a8cdffbc85aea73ffc288be0"
+  },
+  {
+    "path": "calibration/robot_xy_20261121_105637_058163/snapshots/point_001.png",
+    "bytes": 1343279,
+    "sha256": "9f685d6b51fa2eb1d01c6cd0b1ce114193a6d104481cb53aa9b3ad4379b02ef4"
+  },
+  {
+    "path": "calibration/robot_xy_20261121_110503_875016/camera_calibration.json",
+    "bytes": 8418,
+    "sha256": "bf6466938093046161045ff32d1f39b17fefadcaa2b55065eb6c283cd2139ed5"
+  },
+  {
+    "path": "calibration/robot_xy_20261121_110522_905437/camera_calibration.json",
+    "bytes": 8418,
+    "sha256": "bf6466938093046161045ff32d1f39b17fefadcaa2b55065eb6c283cd2139ed5"
+  },
+  {
+    "path": "calibration/robot_xy_20261121_110522_905437/points.csv",
+    "bytes": 807,
+    "sha256": "77161d5b209cb75f025ad7b32f1aeb0e3a97fda7be9b6ee38ccfe0ea94d81b5c"
+  },
+  {
+    "path": "calibration/robot_xy_20261121_110522_905437/robot_xy_mapping.json",
+    "bytes": 5702,
+    "sha256": "93e1c9e8f08f2433fd3619e6e40d17a983198d7d4c44cfb10c698967cf6d4127"
+  },
+  {
+    "path": "calibration/robot_xy_20261121_110522_905437/snapshots/point_001.png",
+    "bytes": 1343279,
+    "sha256": "9f685d6b51fa2eb1d01c6cd0b1ce114193a6d104481cb53aa9b3ad4379b02ef4"
+  },
+  {
+    "path": "calibration/robot_xy_20261121_110522_905437/snapshots/point_002.png",
+    "bytes": 1337334,
+    "sha256": "f06ba458d515521be8bcfeaad008c45790f5cfbd30e0dce6b8841a89bb4bae33"
+  },
+  {
+    "path": "calibration/robot_xy_20261121_110522_905437/snapshots/point_003.png",
+    "bytes": 1339883,
+    "sha256": "996b057aa3d84c72508f04df013328a29d190dd2cb901c23f2e1e7b92c0b453f"
+  },
+  {
+    "path": "calibration/robot_xy_20261121_110522_905437/snapshots/point_004.png",
+    "bytes": 1343555,
+    "sha256": "4b2e70af4a0daf17295b2702222e36c766a62865dca4348bf7a04779f2be04dd"
+  },
+  {
+    "path": "calibration/robot_xy_20261121_110522_905437/snapshots/point_005.png",
+    "bytes": 1342842,
+    "sha256": "59178cd714c0ad676d093030bcc6499d0c2673a59d9e736a8afe73259c65cc52"
+  },
+  {
+    "path": "calibration/robot_xy_20261121_110522_905437/snapshots/point_006.png",
+    "bytes": 1344537,
+    "sha256": "155bb8e1a4a361adb1836002ff80b54a7ee7313f65f8b624f52dc4c41f144078"
+  },
+  {
+    "path": "calibration/robot_xy_20261121_110522_905437/snapshots/point_007.png",
+    "bytes": 1342710,
+    "sha256": "a7a12d02caa2f8ee937f1af0eb9c8728320fc99ff016766fd3b1443adc93777c"
+  },
+  {
+    "path": "calibration/robot_xy_20261121_110522_905437/snapshots/point_008.png",
+    "bytes": 1353216,
+    "sha256": "5d625530d9eb90d33ee0e72c33831956c4382b163d424affbd121b57444ab58b"
+  },
+  {
+    "path": "calibration/robot_xy_20261121_110522_905437/snapshots/point_009.png",
+    "bytes": 1336637,
+    "sha256": "90cc861bce4743aabb83a64054ecd1934a8bfcdd2dff65ae718a6194fbbbe967"
+  },
+  {
+    "path": "calibration/session_20261105_172723_897142/board.json",
+    "bytes": 102,
+    "sha256": "a626b982bb396d4da79cbec105f82f9959b6e1769f494da0283e7f6c7d1ce4f7"
+  },
+  {
+    "path": "calibration/session_20261105_172723_897142/image_172756_691348.png",
+    "bytes": 1104778,
+    "sha256": "92fd89c9969bb3fde9dbfab71b9859f721341489a5bf0c758cda683865457eb3"
+  },
+  {
+    "path": "calibration/session_20261105_172723_897142/image_172759_676962.png",
+    "bytes": 1128547,
+    "sha256": "b4a6a722d862371ee85887f3972627d2060a96764ae525347cbd6cb9b99b884a"
+  },
+  {
+    "path": "calibration/session_20261105_172723_897142/image_172802_536104.png",
+    "bytes": 1115779,
+    "sha256": "5a979a9fa5bdcd2d416f7dfc5479cb44bfc07aa29dd38184c444df1d9302cede"
+  },
+  {
+    "path": "calibration/session_20261105_172723_897142/image_172804_323204.png",
+    "bytes": 1132378,
+    "sha256": "cd4cb72e6e0108808996ba500a3425c92725b5842d31b98be340f3820bfbd78a"
+  },
+  {
+    "path": "calibration/session_20261105_172723_897142/image_172805_446497.png",
+    "bytes": 1137413,
+    "sha256": "ef81e68785cfd6c9f1f60648ce5d3d1c372b2575174391cf1835caaba0c21a08"
+  },
+  {
+    "path": "calibration/session_20261105_172723_897142/image_172807_947389.png",
+    "bytes": 1107524,
+    "sha256": "259e3485730a6de8d40dadbee5731375fae92fc6c33fc59b5c7e4a0db9cef07c"
+  },
+  {
+    "path": "calibration/session_20261105_172723_897142/image_172809_483346.png",
+    "bytes": 1091003,
+    "sha256": "ec82e8f92affdf2a87d83240c4d27d88ae752867c821254abb30e625bc97018d"
+  },
+  {
+    "path": "calibration/session_20261105_172723_897142/image_172810_777441.png",
+    "bytes": 1096241,
+    "sha256": "731889f24ae68fb8c812acfbbfe6cacf4ca77feb7fec0c67659953262e625701"
+  },
+  {
+    "path": "calibration/session_20261105_172723_897142/image_172812_066057.png",
+    "bytes": 1083898,
+    "sha256": "532cb892d37c90737b3b1f431fd10589246024c270071f84bf07e5766b92b8dd"
+  },
+  {
+    "path": "calibration/session_20261105_172723_897142/image_172813_302457.png",
+    "bytes": 1079317,
+    "sha256": "fb7a97ce6f47fe7e268312b592f485fbcfad8fe1423c99119769f6273921a9fa"
+  },
+  {
+    "path": "calibration/session_20261105_172723_897142/image_172814_393520.png",
+    "bytes": 1121614,
+    "sha256": "3944c7052552f72a3664eab7687dc86e6ee00d950d415e853e942a4d6af6009f"
+  },
+  {
+    "path": "calibration/session_20261105_172723_897142/image_172816_127586.png",
+    "bytes": 1126038,
+    "sha256": "121509a67b1a7a086cad0081e13ebac456f72cc71a75cd1af262d46b4f664364"
+  },
+  {
+    "path": "calibration/session_20261105_172723_897142/image_172817_830634.png",
+    "bytes": 1122793,
+    "sha256": "b65d5b58adcb55ab3420027fcaec90393962ce2f351471c5631d6a909d5daa56"
+  },
+  {
+    "path": "calibration/session_20261105_172723_897142/image_172819_395552.png",
+    "bytes": 1129032,
+    "sha256": "3eeb4167527394f298710ebb9d0fcadcf030fa21ef4c7770f5fc353c5a7766a9"
+  },
+  {
+    "path": "calibration/session_20261105_172723_897142/image_172822_327123.png",
+    "bytes": 1118154,
+    "sha256": "4179b0da23726a667b96c7cff1638ca64cc16fc83fb2cfbdaff6363a8229c08a"
+  },
+  {
+    "path": "calibration/session_20261105_172723_897142/image_172824_832154.png",
+    "bytes": 1134028,
+    "sha256": "fe8e9ac28219638b0dffcf8766b425fdd0f225aa94914335abcbb54544d497f0"
+  },
+  {
+    "path": "calibration/session_20261105_172723_897142/image_172828_167133.png",
+    "bytes": 1130196,
+    "sha256": "d0ec608d23d97f732a4e753d121773f19cbe11495710dc7d0e1ee9c9e3dfde71"
+  },
+  {
+    "path": "calibration/session_20261105_172723_897142/image_172829_529742.png",
+    "bytes": 1134688,
+    "sha256": "257ed52f0c8187cf74cabd3cf8e86a11586156e1f45abbb04f08f77f2c1690d0"
+  },
+  {
+    "path": "calibration/session_20261105_172723_897142/image_172831_137293.png",
+    "bytes": 1131468,
+    "sha256": "09aab82134b92bc33142439ef0a49da74816cc2f8b18f312508a4d47abd77bd0"
+  },
+  {
+    "path": "calibration/session_20261105_172723_897142/image_172832_708355.png",
+    "bytes": 1126885,
+    "sha256": "d2359705a86770d62e506e990121fdbacbcf04cd33fd74bab2f22ed878230241"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/annotated/image_174330_073362.png",
+    "bytes": 1154980,
+    "sha256": "66b1a53c25baffe5e3640807f239915751b65f0a3565bbbb20e457699dabd61e"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/annotated/image_174331_131836.png",
+    "bytes": 1157253,
+    "sha256": "1d9e19d80ab4e537ca52cd8c03a54c0f2be9e41862af532193a469835b76d257"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/annotated/image_174331_932673.png",
+    "bytes": 1140571,
+    "sha256": "e55f4324ac7c0d38d373b55ca22ba70276505472e6ce031814222e08ee4c8c98"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/annotated/image_174333_572607.png",
+    "bytes": 1147411,
+    "sha256": "14da4312272a8dfbe076cf1135ac2d2a59196fdc16ec7e48eef4391eecce76aa"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/annotated/image_174334_478152.png",
+    "bytes": 1128634,
+    "sha256": "0f6a553b6cdd60b154274adccca69666df04883d90b8addac913a14c309e0e05"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/annotated/image_174335_405839.png",
+    "bytes": 1150195,
+    "sha256": "8b02a0f6660c5efb9fb58d0230cedde611b06cafae73f5671fd1e177739864c4"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/annotated/image_174338_619831.png",
+    "bytes": 1117746,
+    "sha256": "be7f59c35e4735110482a73885a5cb1649d253106b80570da3ae275d4c0a9462"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/annotated/image_174339_978661.png",
+    "bytes": 1110442,
+    "sha256": "45b4d7ef6b3d08c67d196f2b01f9e76bf04caa8896508c4bef6c878ae936456e"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/annotated/image_174341_628705.png",
+    "bytes": 1152375,
+    "sha256": "aa601806bdf94724bd5e321dd84e0882dff1d15170c5fba28c78723b9fe35a01"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/annotated/image_174342_609780.png",
+    "bytes": 1157504,
+    "sha256": "3f674016bd02d8e1b5094db82b0957f960db6a92fec54880e1ae7df69a656e5d"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/annotated/image_174344_319771.png",
+    "bytes": 1138396,
+    "sha256": "922fd95e86dcf55b5bcb27a1d9ff7e1144aebee0df35c2d2ff2b8ba6fed0551c"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/annotated/image_174345_381982.png",
+    "bytes": 1130336,
+    "sha256": "9ceb7f197a0960c0807ed012d942f3537f6580269f1121969b035b6bcf1455c0"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/annotated/image_174346_522768.png",
+    "bytes": 1148540,
+    "sha256": "459936b535a58954946d8dec563004ae998604bd1333f6b42b64ed6c38e5c56f"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/annotated/image_174347_836093.png",
+    "bytes": 1147040,
+    "sha256": "d946d9af7f9adb6f16f56f18983b02eacaba143a086c27d0adfc6a0a0c61f69e"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/annotated/image_174349_112970.png",
+    "bytes": 1118161,
+    "sha256": "f60df701dc4d9ae1368d339e8ed76b78ce6471111bbcda16ced49e2e23430fe2"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/annotated/image_174350_425220.png",
+    "bytes": 1116011,
+    "sha256": "0e674b262ce7eb1469d72570d9420f188d5d4a9dbfc9546b9b376819ebe8718c"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/annotated/image_174352_252195.png",
+    "bytes": 1139007,
+    "sha256": "6627b8affa5615c49ac5fd3b3fb178b38192cede1770ca1eec56711d96699ae2"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/annotated/image_174353_465719.png",
+    "bytes": 1137169,
+    "sha256": "8827bd15f7219c309160e26a737e3bc84335f30c13029d106787b97535ce59f2"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/annotated/undistorted_example.png",
+    "bytes": 1073852,
+    "sha256": "c34889a9242d5cf3457b9e1282481473ff6c70b8bb1ab542479db4b8180cb620"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/board.json",
+    "bytes": 102,
+    "sha256": "a626b982bb396d4da79cbec105f82f9959b6e1769f494da0283e7f6c7d1ce4f7"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/camera_calibration.json",
+    "bytes": 5921,
+    "sha256": "5781ea9eb0933c89ad3c1b6eccf8a11ecf828c78b0716869432fa48280903d63"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/camera_calibration.npz",
+    "bytes": 1206,
+    "sha256": "e5d7b0f901f8df7b360b8a2adf7767c78633f16aea1cd25f8c406069354ac39d"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/image_174330_073362.png",
+    "bytes": 1145424,
+    "sha256": "08242f7641b2f72a25b11ee16daa1496e48fb55ea53cb05c9c5be40800332f5e"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/image_174331_131836.png",
+    "bytes": 1144856,
+    "sha256": "bccfa4b41cfa7e557cb102c7365ecbededbcf7f237a05e6d94ba56ec89fc3f20"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/image_174331_932673.png",
+    "bytes": 1129284,
+    "sha256": "1f213c75ea39546395ea2b43adebef0e954b17d52e1bea3612c37e0d3f0c1e2b"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/image_174333_572607.png",
+    "bytes": 1139321,
+    "sha256": "f9ddebf3e42f83c4c9fffb187236302c09b1f48411b3282b154759faf9d3b349"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/image_174334_478152.png",
+    "bytes": 1119949,
+    "sha256": "267fea0a29c2efcc5cdca14d70f2e5494dd5eb73ee43a0d8677572b5dea9562e"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/image_174335_405839.png",
+    "bytes": 1140387,
+    "sha256": "b2c99a935f58014c0e88a8be769c5babbc44e3d0d9add33a8d27a7832b45d653"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/image_174338_619831.png",
+    "bytes": 1109078,
+    "sha256": "b2a9d980d472951990ba2746b8b6615bf46241d972ee82c35e948b16e30c2ce3"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/image_174339_978661.png",
+    "bytes": 1102112,
+    "sha256": "19523865d3cff3eda363a75baf4010564ec0068e9c8902f4b3098034a17d4c21"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/image_174341_628705.png",
+    "bytes": 1144625,
+    "sha256": "8d4b675a139b5787b617e2368de5ebdfbf06a8ebc69fcaf0dd3d971bed36068b"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/image_174342_609780.png",
+    "bytes": 1154237,
+    "sha256": "3363d03569df041a5dc2807291242f2ae7131bb211251e090b8407dd50296715"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/image_174344_319771.png",
+    "bytes": 1130882,
+    "sha256": "4dafc18fc767cadd71917d8bc888c6e16ef26fdc16e64ced9a731ae64c7e2ca2"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/image_174345_381982.png",
+    "bytes": 1119343,
+    "sha256": "1d9c5078051bd50c5dbcee863f2b9953d212146d8001a38a1d19dbc209e19498"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/image_174346_522768.png",
+    "bytes": 1134618,
+    "sha256": "2374c198ecc3044d421e14ec0351eaf55d66716e52dbfadd809edfde52aca1c9"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/image_174347_836093.png",
+    "bytes": 1138919,
+    "sha256": "cd9566ee09b886549c70231f62c98e1ef143d3021970b9ce72c23ba3f4133877"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/image_174349_112970.png",
+    "bytes": 1110751,
+    "sha256": "ea1cae2b3c923780559be2995f92541886e8a8d25fb9503b7e18a7f3982a6314"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/image_174350_425220.png",
+    "bytes": 1106370,
+    "sha256": "e418cff98467f613cbd9ce717ad81c03e30ac2ccf6688b844a3ea7f3855adf20"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/image_174352_252195.png",
+    "bytes": 1131051,
+    "sha256": "c99e573e699eb91b8ac5372385f7b0019becb45851d3ab5caf4baeff62230a07"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/image_174353_465719.png",
+    "bytes": 1126904,
+    "sha256": "41ffdceef153a40b6a3c57fdbbc5cfe00220f236038ad6025f17e5743f7d9798"
+  },
+  {
+    "path": "calibration/session_20261105_174314_928711/per_view_errors.csv",
+    "bytes": 849,
+    "sha256": "57ae5c227acdbce8bf849191f3aae66fd46e793e5aa8a46972036a442a5a364d"
+  },
+  {
+    "path": "calibration/session_20261121_104334_793358/board.json",
+    "bytes": 102,
+    "sha256": "a626b982bb396d4da79cbec105f82f9959b6e1769f494da0283e7f6c7d1ce4f7"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/board.json",
+    "bytes": 102,
+    "sha256": "a626b982bb396d4da79cbec105f82f9959b6e1769f494da0283e7f6c7d1ce4f7"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104457_046403.png",
+    "bytes": 1442820,
+    "sha256": "d905466544669b031415227842c83cfe39389694be9b94db74dab0c84c05cf1c"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104500_336283.png",
+    "bytes": 1448952,
+    "sha256": "f54dc8cda0b170f40da83e40b4d9daaeb69ab20c6de1cf5641dfdb41322071ed"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104501_640731.png",
+    "bytes": 1413089,
+    "sha256": "6a713b90e11e86ad35a070008f3981af2bff11ac7f6872a7a2183c081bde2d75"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104504_739650.png",
+    "bytes": 1384297,
+    "sha256": "9daa71184d3269b73cc1dbeecf7483c9a655ea99bf33cd84ffd113ff4effb9c2"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104506_734205.png",
+    "bytes": 1407665,
+    "sha256": "2c51e19364ac2cc1ea0dcaa83eab72842ccdd3209895cde8465cd5d5edb9877c"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104508_384989.png",
+    "bytes": 1412999,
+    "sha256": "4e879af01b3a8aa6096576712af0cec7aca80fed434b734ea9cf662153157981"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104509_804682.png",
+    "bytes": 1426779,
+    "sha256": "826eaf8c8c008f33f058f82bb8ce332277fc03e65d647c87e428586c7ad3c16c"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104511_852496.png",
+    "bytes": 1379712,
+    "sha256": "0e703f51b58f8cf56549ebd9b58325732f15bd277c34692146a11a785ac4f8a0"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104518_765547.png",
+    "bytes": 1352238,
+    "sha256": "a2b8d4cb7d4a86e898f2d5f62238cde12a44ffe9f2cf4550fdc9d7edc46bc2b2"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104520_460338.png",
+    "bytes": 1370181,
+    "sha256": "d4fea10a0d40cc997c5d2e94e9cb4c9fcb037ecbb0a793901b003dcc6ea75858"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104524_300086.png",
+    "bytes": 1433963,
+    "sha256": "e826062d5eb36c93fa0bc037929a40eac248883365918062e5ebdcb01e51f50e"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104525_869235.png",
+    "bytes": 1441133,
+    "sha256": "75b18e859eed0dfdfa767d03f2413ff6fce2f467a18136a39f09e5ebb37de720"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104527_304714.png",
+    "bytes": 1441342,
+    "sha256": "81702b435c0b8e1b1c181c2c0c6d37a0b5cceaed49bf2e9d29b97d495430c4a4"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104529_260557.png",
+    "bytes": 1406560,
+    "sha256": "bf03a1ac52683a120d1eb9afe571e129785d4368c74e23ea3a90b2de37d83264"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104531_113618.png",
+    "bytes": 1378246,
+    "sha256": "937d6a9e3ff314ea260cf374f3ded6ea3ac704fe5db4b88acc4fda178f68654f"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104532_685191.png",
+    "bytes": 1373421,
+    "sha256": "27958b756b8be82b85a40d624868c516295ee2bcadabccb0b3c0282480ca2e45"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104533_972292.png",
+    "bytes": 1358472,
+    "sha256": "0c9e7b42b7743a7667e8cbf73f33939f8370896418273c99ef108ecdf16a7463"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104535_483571.png",
+    "bytes": 1351849,
+    "sha256": "97c86237e4f3be3ed58e05495993b5bc9bb73bc74774b9c98f6d02231bfe1161"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104537_891084.png",
+    "bytes": 1359685,
+    "sha256": "029a57791fdb9d26b3d0d02dcedfd9dfe71400076052fcc357c8a8e9f8285bee"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104539_579865.png",
+    "bytes": 1399763,
+    "sha256": "d42063495f1c1a5d149d1fa2a1e413301c1c9cb10c281d0823a95edcbc8c5b87"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104541_147289.png",
+    "bytes": 1415462,
+    "sha256": "7a9a44015ae7eaf35a28dac2055fc5199db82a7c46302e3ab2b81912dc7867d3"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104542_450514.png",
+    "bytes": 1441166,
+    "sha256": "233ec148fc692b7e1aa3c4aa79ec13cd5c7f8b586ad4ac6302163c1e27873efb"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104544_422015.png",
+    "bytes": 1445561,
+    "sha256": "6a6f68e46ed0e37040ed2c3ef2f5e86b454690c6c85b78c957e9418ee22cdb5e"
+  },
+  {
+    "path": "calibration/session_20261121_104357_092039/image_104545_720924.png",
+    "bytes": 1426175,
+    "sha256": "dbea4332137036eeb31c4f0763ab8fe0f66e462bc3133de7c612e382ec95912d"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105159_801780.png",
+    "bytes": 1472956,
+    "sha256": "f123e689b4f32102a5cbe193621f2ddc9fe51b09eec503213e732942434d03db"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105203_227107.png",
+    "bytes": 1474790,
+    "sha256": "87617b5a06896463bb74f77e35c0182d75d56aaac00a5e6ef270ddc5f56c4ec3"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105204_095998.png",
+    "bytes": 1442145,
+    "sha256": "88d4f6af5b809b4e81e40b0c90a151c71f0454f1a49d7f4f9ed7df9eacdf7162"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105205_378796.png",
+    "bytes": 1469677,
+    "sha256": "dc44ddcf56345dbf862c96230967f32a9bedca92ca490eb5fe783e32deb3d6da"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105206_665108.png",
+    "bytes": 1408018,
+    "sha256": "676f95f249cce86a38cd6df0ba51a0cee7767a0a942a181276babe6aa1b5f5f2"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105209_618809.png",
+    "bytes": 1434961,
+    "sha256": "4d2bfc23321b5dfe1aaace870b95fc756bc421148aa60196fed82797f59ab268"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105210_744907.png",
+    "bytes": 1387081,
+    "sha256": "f2b872e0d5e5189852c5ffd06723c47472e9f06486cad53d9028512e98fe37c5"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105212_165287.png",
+    "bytes": 1374482,
+    "sha256": "cd5aaf7e9a98b202984a4d60c70540b5b709c3065fb842599f10b2dbee12f699"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105213_158574.png",
+    "bytes": 1378336,
+    "sha256": "556fc60bcb22f7551667836fedd64e6a17fadfbcf00bb9d1fd6b57a523a05869"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105214_092626.png",
+    "bytes": 1389290,
+    "sha256": "f50d748574cb8985a3f273e124cb7d77efdf2f06be3df17b5d5fcda96202e04e"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105215_392501.png",
+    "bytes": 1402257,
+    "sha256": "ed4b85afd41366d577d4a2466e4f4816ee14d78808b8dffcc574709164f3014f"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105217_201243.png",
+    "bytes": 1409833,
+    "sha256": "29f34bb8cfa8889e39e1f012c8a115d358d8ec4d1e2df1434df6bf3a44ed37ee"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105218_763288.png",
+    "bytes": 1445082,
+    "sha256": "abda312b97a0d47ea4bf39f0c76dc03e7a8fe602375c06dd22a389ec37e39013"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105220_206286.png",
+    "bytes": 1497420,
+    "sha256": "5e0e062ebcc0829f38c20f0d492a7870a1daac93c3e139f5459adc6274fa0edd"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105221_702075.png",
+    "bytes": 1474110,
+    "sha256": "33ae4b1998669c3b3d4527d660a099e5c6ed30b85052eb1ad01f4bc834a0c0a0"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105223_069535.png",
+    "bytes": 1469487,
+    "sha256": "1e60dc34a9f8a914842e64c2c501c53bd46045789d0bca0417a8d3e5351fbc17"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105224_082958.png",
+    "bytes": 1471783,
+    "sha256": "17c92f3cdd76546b90b0b0fe2f8843277e1e5b12fc350673455a43f987a88136"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105225_213398.png",
+    "bytes": 1459421,
+    "sha256": "6bf3486032239ddf32c13c18e723684b038ba31aa38ee44fa8f917ea9fbf4512"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105226_480396.png",
+    "bytes": 1433845,
+    "sha256": "3918a450ce8806bd626f7c1572088e4a1b9eea41cefda0f89767bfc6f7becb05"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105227_748155.png",
+    "bytes": 1419179,
+    "sha256": "aeea635361dca85bb0df026742507acafe89e6588c4073811e53cab540f6b788"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105228_897496.png",
+    "bytes": 1400438,
+    "sha256": "8c8e1b7406e920a938043243292f183a3c88dda9dfd8e9d29f6a38f5d09dbc52"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105231_383098.png",
+    "bytes": 1387480,
+    "sha256": "ffe3b6a7893475c0ffc95fdfe55159042c493aeb049b62a4ed35b68990db4efd"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105233_085093.png",
+    "bytes": 1383715,
+    "sha256": "ead3d5d41adf9b56d35e1a3c73560ff8a871ca05f073b91fbed898270102d59a"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105235_214102.png",
+    "bytes": 1416282,
+    "sha256": "58f19e16de966d65b7ca7a734d78726c566f6131888f7da39a6d72535e6ecbbd"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105236_618022.png",
+    "bytes": 1448150,
+    "sha256": "2687681981fe1e770a65d6898a99340615e6fbb4fe7c8693dc5cf6c4f425b28c"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105237_522414.png",
+    "bytes": 1453085,
+    "sha256": "738c2c1f388a6b30378c8615433f1678683d9c1fc8794de732525128b2df7f02"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105238_519240.png",
+    "bytes": 1432663,
+    "sha256": "b3bd2e12275542690b07dfc49494fc64b2d45e9cdc8100aaa01043c8f3b0b44a"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/image_105239_876496.png",
+    "bytes": 1416987,
+    "sha256": "413b5b9517591388f23280193d410b3d22b076b20443a33b2f2a7578820bb794"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/annotated/undistorted_example.png",
+    "bytes": 1339696,
+    "sha256": "e992708a50f5785648226ef4ef969b6a6ded20567f04a21beba904a3838cf77a"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/board.json",
+    "bytes": 102,
+    "sha256": "a626b982bb396d4da79cbec105f82f9959b6e1769f494da0283e7f6c7d1ce4f7"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/camera_calibration.json",
+    "bytes": 8418,
+    "sha256": "bf6466938093046161045ff32d1f39b17fefadcaa2b55065eb6c283cd2139ed5"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/camera_calibration.npz",
+    "bytes": 1206,
+    "sha256": "f8fd3a87b05874cf9d0ea8d3d91b4116c871ce26070e72288fc31e985821b7c2"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105159_801780.png",
+    "bytes": 1459087,
+    "sha256": "10899c4e97b219e5aa7de8b401f87b284527883a24907cc71f16d5f78eb0270a"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105203_227107.png",
+    "bytes": 1462910,
+    "sha256": "48605f0247850e3bef9fc9be1246ef19b151b3aba295cba27018fafc9c7345be"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105204_095998.png",
+    "bytes": 1427312,
+    "sha256": "cf7d276830d2e75976ea37b0d8c0445fa8a92033d89500e930e5c64974efe9e8"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105205_378796.png",
+    "bytes": 1456757,
+    "sha256": "80b46ef2c265933e4a60a8bd09fc4c4032aeef0f7040b679cc291bb9fe1b0c8b"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105206_665108.png",
+    "bytes": 1396409,
+    "sha256": "ae9d54a3ac53b90b424759828412f2263ba6227daf1ce74639124f2e05cb852f"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105209_618809.png",
+    "bytes": 1422606,
+    "sha256": "54e982e94e0c7876c4b82963c481b158c8392529afbce9ddd566da542108ebcf"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105210_744907.png",
+    "bytes": 1374110,
+    "sha256": "e0595501fd1d4628946fb53adc14fa0d8402260a86c288bd33e3fb0c31a7c0d9"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105212_165287.png",
+    "bytes": 1361622,
+    "sha256": "f9cb4279b0f51b1c714f409b17c206b18f06de310bc38d149e2d6097f72c01df"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105213_158574.png",
+    "bytes": 1363224,
+    "sha256": "84ec3a76a004c6912e9a4528752c2505fc7fa066e49e251b2d766422aacb0f7e"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105214_092626.png",
+    "bytes": 1374230,
+    "sha256": "65cf065d924c0c5c6e12df90a76e8152cfa1649aeec23116c775f5d11a242c16"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105215_392501.png",
+    "bytes": 1385816,
+    "sha256": "a3cc40e72f162e2d9382af5ae8c73d1a6bd3777d597531335cab37a0fe8db24b"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105217_201243.png",
+    "bytes": 1396055,
+    "sha256": "68ce106bbc1c0a79c5deea087b442e22599d4228d2335ce3574b426d2ae83556"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105218_763288.png",
+    "bytes": 1430652,
+    "sha256": "35cd29223c5ded07f36377e65c1554253ee57be000b364d14edec7b026a4d634"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105220_206286.png",
+    "bytes": 1482729,
+    "sha256": "3bbc8d9e66565e92c7b51a461dd9b909e2c424b9210690acab7d6bf952ba3413"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105221_702075.png",
+    "bytes": 1459056,
+    "sha256": "fe365d9ffbb81325677a01bbb1712c793aea3eda470e4fac2dd098524775ba45"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105223_069535.png",
+    "bytes": 1454745,
+    "sha256": "5e77cd2684df70ef9cf30251ce5b2e4f5fff6986b714dc9693aa8b9aef38368e"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105224_082958.png",
+    "bytes": 1457555,
+    "sha256": "8d65974561cba3314b3f84d06ccce317a034b721f0ca2f91da5c10f8d267225c"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105225_213398.png",
+    "bytes": 1446168,
+    "sha256": "afe39feb6c68692a0abf7c1a4948165575eaa40fc85b9eed61a6b32d426653c6"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105226_480396.png",
+    "bytes": 1419518,
+    "sha256": "5ca75063e1eae486b610db5d2359c94a9a4667e8c045d91ef56448ad1392fbb9"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105227_748155.png",
+    "bytes": 1404200,
+    "sha256": "c80a0545839c1c31110292534398bc9ed63e193fc26d165ba088b5e039efb0a3"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105228_897496.png",
+    "bytes": 1386161,
+    "sha256": "eb4107e047727c73b493e042b7d3cb70f3b915ba61ae645b78016984f30a6c41"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105231_383098.png",
+    "bytes": 1372315,
+    "sha256": "2fe7382486866bfe17153e8e92de8486093c60f55b558bb01c177161f9418a7c"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105233_085093.png",
+    "bytes": 1367812,
+    "sha256": "22c6a4218a0085b63d17b0b30d945490f051dd5c8bec2d8a27b9cfc8b123a8dd"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105235_214102.png",
+    "bytes": 1400631,
+    "sha256": "58ea5ffda2e05a5cad487fc7b0d66460a168519e9c1923a270088673d352febb"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105236_618022.png",
+    "bytes": 1432052,
+    "sha256": "c1c909bd9d6fe8afa83787130f6f77698dc897317f6b7baeebd81dc260649a89"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105237_522414.png",
+    "bytes": 1438723,
+    "sha256": "75a21011041b8878e8ce4cc2ef450cbab1835476a00cd5b3e0e200b6eb44dd41"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105238_519240.png",
+    "bytes": 1413402,
+    "sha256": "12b481c942b7cc5a7772e52d39d845f5d0fc9ab4c9127f0a1456a32f11565ec8"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/image_105239_876496.png",
+    "bytes": 1399861,
+    "sha256": "0715f48add8f7050f5315f2a891546c21ff5eddc5895de6645a5adc1291d391a"
+  },
+  {
+    "path": "calibration/session_20261121_105139_066565/per_view_errors.csv",
+    "bytes": 1294,
+    "sha256": "1d334667eb74114023787e55acac59bd8af3468f0ace4d0f037ccabb3b57ad06"
+  },
+  {
+    "path": "code/__pycache__/calibrate_robot_xy(2).cpython-313.pyc",
+    "bytes": 40804,
+    "sha256": "5320c2cf274d4d73cf5616bdfc8db23190781215b2804498e7fcc820c45e0b03"
+  },
+  {
+    "path": "code/__pycache__/calibrate_robot_xy.cpython-313.pyc",
+    "bytes": 35609,
+    "sha256": "f27723f05ffad6ceb1275863fd4356aa2ef57ffae6761312e401d351cab7e985"
+  },
+  {
+    "path": "code/__pycache__/camera_calibrate.cpython-313.pyc",
+    "bytes": 26282,
+    "sha256": "efad18b0a12d9194bbfa2002bc1edf30a51372cf53587b5db651663b22f265c3"
+  },
+  {
+    "path": "code/__pycache__/manual_move.cpython-313.pyc",
+    "bytes": 6769,
+    "sha256": "559f4d67527417ab4056dc57e02ba2a2d10683693dbc588e498b54e12f317c0f"
+  },
+  {
+    "path": "code/__pycache__/mg400_tcp.cpython-312.pyc",
+    "bytes": 18025,
+    "sha256": "d0d08ded3ea3903c8e580653c93c9430a7252edfa829f0e2153aaf1b0b9479a5"
+  },
+  {
+    "path": "code/__pycache__/mg400_tcp.cpython-313.pyc",
+    "bytes": 18541,
+    "sha256": "866ae0298333edae5b8b50007679a3451d326c9d45dac3d564a80b23a0343dce"
+  },
+  {
+    "path": "code/__pycache__/random_move.cpython-313.pyc",
+    "bytes": 9187,
+    "sha256": "e8f1aaa445aba79756ce306b8e87f9498af8c650921ec73b766c0923dd1aefb1"
+  },
+  {
+    "path": "code/__pycache__/robot.cpython-313.pyc",
+    "bytes": 7168,
+    "sha256": "2c68ed470bfa7c1fcd6b90b7550229cd98ea037a6e70a70ce998c8d855d51a42"
+  },
+  {
+    "path": "code/__pycache__/robot_xy_mapping.cpython-312.pyc",
+    "bytes": 21874,
+    "sha256": "d02ea03adfde751823109b3a82a977496170daa49d86b2ad7ae7051af687a98f"
+  },
+  {
+    "path": "code/__pycache__/robot_xy_mapping.cpython-313.pyc",
+    "bytes": 22356,
+    "sha256": "a3e3a5b289c940c46c4a0e4f6bdc367563e62c53b8c006306c7445e926f97c7a"
+  },
+  {
+    "path": "code/__pycache__/sam3_prompt.cpython-312.pyc",
+    "bytes": 38562,
+    "sha256": "766b590827f16d16974ebd8221beba7284779aef82f1f555b2cf73bd1e3d7d25"
+  },
+  {
+    "path": "code/__pycache__/sam3_prompt.cpython-313.pyc",
+    "bytes": 38806,
+    "sha256": "5f4d5ca0f991c749ec164b9bf871f321b8ad3ccc80a2a940551f6d8348409eb3"
+  },
+  {
+    "path": "code/__pycache__/sam3_runtime.cpython-312.pyc",
+    "bytes": 7980,
+    "sha256": "62e82041a9d2ca3542cbe9887166f7a31197d878b0887c46bfa8ffee89fbdd2f"
+  },
+  {
+    "path": "code/__pycache__/sam3_runtime.cpython-313.pyc",
+    "bytes": 7969,
+    "sha256": "507d515140fdf866931c24f3bc3c1aa4cde615e987cb3732dd0a8ded8d6fc3db"
+  },
+  {
+    "path": "code/__pycache__/test_target_move.cpython-312.pyc",
+    "bytes": 7161,
+    "sha256": "f5f97eef75101c5c33498bcb52a7a4b9a596a62f24f9bbf8c00dbc730c01f08c"
+  },
+  {
+    "path": "code/__pycache__/test_target_move.cpython-313.pyc",
+    "bytes": 7164,
+    "sha256": "7be1aa9d0004b814bda59d6c3767bd72f80ae02f5abfa2612bccb372c7894cea"
+  },
+  {
+    "path": "code/calibrate_robot_xy(2).py",
+    "bytes": 24139,
+    "sha256": "537bc29bdacb2833081c2645279695914d8f22f77f3478fe8d3d2a1e984c5e4a"
+  },
+  {
+    "path": "code/camera_calibrate(1).py",
+    "bytes": 16828,
+    "sha256": "c4e05304222ba57c522ad7bcbf60fcf88293b5f9deb217031e2f32b93f5985cf"
+  },
+  {
+    "path": "code/integrated_pick/__pycache__/app.cpython-312.pyc",
+    "bytes": 38277,
+    "sha256": "abf8b099ca9dc2cb5496125f828ac347743bc12bd3f414efa691881d6d734ce8"
+  },
+  {
+    "path": "code/integrated_pick/__pycache__/app.cpython-313.pyc",
+    "bytes": 38950,
+    "sha256": "463bba80fb56c48c7406ad6844217670829920be07242a3e42f6e50296e59c63"
+  },
+  {
+    "path": "code/integrated_pick/app.py",
+    "bytes": 22789,
+    "sha256": "47a32365cba033a0a9ee2f44109c8de2d23dfb81e0e68b11ca6efa493de70a70"
+  },
+  {
+    "path": "code/integrated_pick/README.md",
+    "bytes": 1297,
+    "sha256": "1e50a642ea15e4e76fa8596d4c86aeb8411c45358ea2c2504f397efe70fac6b2"
+  },
+  {
+    "path": "code/mg400_tcp.py",
+    "bytes": 12482,
+    "sha256": "3e7258f4b09861f326b6dd2e6dfcc2da3bad2b16adac5a144d3f6cc22b8d85c9"
+  },
+  {
+    "path": "code/random_move.py",
+    "bytes": 5292,
+    "sha256": "cd07a67e338aaee00d681e753917142b917bf0776fa75c3b457b21814c58efef"
+  },
+  {
+    "path": "code/robot_xy_mapping.py",
+    "bytes": 12713,
+    "sha256": "997d54a0579d2005aacd986eb5e074aa101aec81cb08b45573461eab2b8f9f15"
+  },
+  {
+    "path": "code/sam3_prompt.py",
+    "bytes": 24587,
+    "sha256": "8e050404617a00bdd1b7574cac4ce84d720ee0012d78e99465df0dd7bc01b272"
+  },
+  {
+    "path": "code/sam3_robot_move/__pycache__/app.cpython-313.pyc",
+    "bytes": 1748,
+    "sha256": "152bc8dafd439891ddb4169add46e2f1a9db908be42eafe4d749c39693947c80"
+  },
+  {
+    "path": "code/sam3_robot_move/app.py",
+    "bytes": 1020,
+    "sha256": "e22df1014656a5e49896b59d8c419f6f1b5e10946a92dcbfcb6baa9eeaec9bed"
+  },
+  {
+    "path": "code/sam3_robot_move/README.txt",
+    "bytes": 2294,
+    "sha256": "a3a5265b0a50308254a68d80ca486ebbf5c9dc55b0350adadec19a567558ae49"
+  },
+  {
+    "path": "code/sam3_runtime.py",
+    "bytes": 4844,
+    "sha256": "ffdd2bc396cfe28f9669cd9b9b3599440acbbc5a4003a0623f6893146f6ee768"
+  },
+  {
+    "path": "code/test_target_move.py",
+    "bytes": 3801,
+    "sha256": "5260175928658a5b7e5ce2d2aa09d69966beb72e53818cf9c89935f24518b7b8"
+  },
+  {
+    "path": "config.json",
+    "bytes": 559,
+    "sha256": "567b3820183dd7543d6380e640576c0de008323bf848ab2cd45b985978aa96e5"
+  },
+  {
+    "path": "DobotStudioPro-2.8.5-x86-64-stable.202506021449 (1).exe",
+    "bytes": 454854752,
+    "sha256": "2ac51fb07bb7479553b171090dfbe21c99dc95d4f4fadf98327973f1006d7827"
+  },
+  {
+    "path": "HRSS上下料操作_1A.pdf",
+    "bytes": 5763981,
+    "sha256": "da553b28b6bac6ebf5661d18737ad2277615a4fecbf833305319b21f139cefd5"
+  },
+  {
+    "path": "logs/real_motion_2026-11-05.txt",
+    "bytes": 10187,
+    "sha256": "1b95c0e02e9f5161ead22eccb608a445108c5dd183a1faef1b6cbfd632b8f4e1"
+  },
+  {
+    "path": "models/sam3.pt",
+    "bytes": 3450062241,
+    "sha256": "9999e2341ceef5e136daa386eecb55cb414446a00ac2b55eb2dfd2f7c3cf8c9e"
+  },
+  {
+    "path": "README_CAMERA_CALIBRATION_EN.md",
+    "bytes": 5678,
+    "sha256": "ab33b507d60bd7f602ad7b7a41fad95471629203b8c450480147ada547f8cc23"
+  },
+  {
+    "path": "README_RANDOM_MOTION_EN.md",
+    "bytes": 5407,
+    "sha256": "7dccd837dceb949e99628daadb16b1794c67379c6fb659b40d3bc417c2e073fb"
+  },
+  {
+    "path": "README_ROBOT_XY_CALIBRATION_EN.md",
+    "bytes": 4251,
+    "sha256": "df7fd5c5e8c9a7f9f4d52ef09b8652762b2fe4e61c77ec3eebc3ef8c6467981a"
+  },
+  {
+    "path": "README_SAM3_PROMPT_EN.md",
+    "bytes": 5644,
+    "sha256": "76886f30f6a38558030e11b6a78a1564ac2dfb5518d8680463d5199a8c0ed7dd"
+  },
+  {
+    "path": "requirements_camera.txt",
+    "bytes": 35,
+    "sha256": "fe43a4553847b606a0db0e86284da9f0ea8e9d813b9048d80b5d39072278e0ec"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_001.png",
+    "bytes": 12393,
+    "sha256": "1c8511d9612fa64533ffe8239be1a8effa54bdaf1f6b212073850cd81875dba1"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_002.png",
+    "bytes": 12394,
+    "sha256": "f9b5c441e630beca67cca9e5eb18d2299cfd18942394da7e03faeaf93f4bcabf"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_003.png",
+    "bytes": 12335,
+    "sha256": "9ecf7cd910f90a57e47536e21eca37b67165cd9c14a4b63c9a0e624e7f44df9b"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_004.png",
+    "bytes": 12371,
+    "sha256": "61560b4e81cb7cf502eee232b8f3aa90c7dbb92e08528c33c553363f3e8d6ebf"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_005.png",
+    "bytes": 12238,
+    "sha256": "3bec111684463477d5b1ea47c7de14366b90fd1c1062f56ecccdd1698518258f"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_006.png",
+    "bytes": 12369,
+    "sha256": "4b4d532c2ccc42b35ec73de7a19cf729122d8ee29d0e534ff803307caf9f2658"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_007.png",
+    "bytes": 12220,
+    "sha256": "88662ed0daf5e221b14a31fe1d6838ad92813ff9227c688a0054a05641b49534"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_008.png",
+    "bytes": 12187,
+    "sha256": "0517c040702c42dc2feae6046e11d48aa148fcf32ce3095f1d99b2e24057bc3d"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_009.png",
+    "bytes": 12204,
+    "sha256": "03d1716e1ed0d5e922cd93d3df3aa72d9decc7588fcd9a8596031330d7428540"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_010.png",
+    "bytes": 12254,
+    "sha256": "5411dd45bda3d6de76c4e52383b0d0b5e0f91e812ed21c1d0897660222489a0f"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_011.png",
+    "bytes": 12220,
+    "sha256": "5382497319a349e6cc1274a525034ee903041b0e6d8d89a4a151e3380ff8cbf4"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_012.png",
+    "bytes": 12187,
+    "sha256": "e7935a26866b5851209de5a2987b27c4a3a1f571ecbe845301688b1f72e16fbf"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_013.png",
+    "bytes": 12208,
+    "sha256": "ea175bfa9a57b32dc29365ece51146cc4dcf2a6db0be305588db7c89711ee4d7"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_014.png",
+    "bytes": 12258,
+    "sha256": "5359ca7f648f2653894ac4a540a409f1c5f6e1147e2dc006f7e27bc87a9eeeae"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_015.png",
+    "bytes": 12217,
+    "sha256": "5fad1471bc02ccd510d82282eec6851392fb1ed7ff8e3ce992b42bcdc9c97aa1"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_016.png",
+    "bytes": 12230,
+    "sha256": "fd99676dcab73e9de7000e91beddb0ff49922185a12eac0502e5161efd1a6976"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_017.png",
+    "bytes": 12347,
+    "sha256": "5c82f9a0248c1d6dfee61abe3269a1be6f8fb0e9a1749565e7c84d10f30a3d64"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_018.png",
+    "bytes": 12309,
+    "sha256": "104f03d473b59c199221ab58fee31a02c1cde351a08427bb6b182c59235072bc"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_019.png",
+    "bytes": 12312,
+    "sha256": "b8fc22897ac31f84d4c852244179fc513d2d17937f70f6c86222510792e32976"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_020.png",
+    "bytes": 12226,
+    "sha256": "e9b49e84a91d91ead801028d917cb34e84a8d7143eeef834204926117ec48b44"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_021.png",
+    "bytes": 12301,
+    "sha256": "76db0e8e01fca464902bc113447df9d30752bf70ddb5ac86afe2ae5bdb137f54"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_022.png",
+    "bytes": 12310,
+    "sha256": "0088a756e06d4b066f9ac80dce8f172ec024b721c4545d728e0a0da953ab8d59"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_023.png",
+    "bytes": 12267,
+    "sha256": "dee9dca93b20c2bdf8ac26b950984e1c723c3c6d1d0a63c86c4527f1acac299c"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_024.png",
+    "bytes": 12347,
+    "sha256": "34a379001ac026ce8d3f0b022d7befd84bdea6ab383dfadea3fa634fbf746969"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_025.png",
+    "bytes": 12291,
+    "sha256": "01ed55146b1003b4341a094b4c1316ce343b6665b72cab17cf4d5e22db88ac53"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_026.png",
+    "bytes": 12207,
+    "sha256": "418cea46cbc383faaf0bb697305b1ab24c2e2ed7eb31393bf1d55eb7186a62a7"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_027.png",
+    "bytes": 12253,
+    "sha256": "68f8411dd225f18336fb2ec5b5ac456cc4228cfb07c76a820eb0f897f3b15f30"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_028.png",
+    "bytes": 12291,
+    "sha256": "b9cb74cd18ed2e3f8d225214c435283d792900b4eb702b160c70cab6c427e65b"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_029.png",
+    "bytes": 12255,
+    "sha256": "4dbf5679e6e690a48b1436d12b15c1a8a52b111735cb133727abcddd64fe26e4"
+  },
+  {
+    "path": "sam3_results/test_coin/masks/object_030.png",
+    "bytes": 12354,
+    "sha256": "fdad38c16c870598e96d462e58ce1f78a7bff7bc78a80b5599458739a4370544"
+  },
+  {
+    "path": "sam3_results/test_coin/result.json",
+    "bytes": 7605,
+    "sha256": "083c349abbe42c3a9919d1b11c5d9a3e5367a5ae423e54b8d8fb5833ea68e858"
+  },
+  {
+    "path": "sam3_results/test_coin/segmentation.png",
+    "bytes": 9440729,
+    "sha256": "29cf86c24a33548a61f0376d797826c3b2a7a0c61699332a4c7b2db086f10f70"
+  },
+  {
+    "path": "TCP_IP_4axis_CN.pdf",
+    "bytes": 970302,
+    "sha256": "4a97df2b0fbcbfdad154c011c118bf52df3b817d591a391e4e5a4d811a6b699e"
+  },
+  {
+    "path": "TCP_IP_4axis_EN.pdf",
+    "bytes": 733252,
+    "sha256": "cae4c7dd735846994598e02b25a34eac944652e73cdee34cc71220fb87f623a0"
+  },
+  {
+    "path": "Vision_to_Robot_Flowchart_EN.png",
+    "bytes": 1200100,
+    "sha256": "c6defeade2f25dccc93d3a26619451d5657b60c67e22c99f5f90652226af3fcc"
+  },
+  {
+    "path": "VSCodeUserSetup-x64-1.145.0.exe",
+    "bytes": 256317640,
+    "sha256": "3f7c8b905cfd4795b9d5ff9cfded9085bd2fa14a1d5001e94d07c89f021d9950"
+  }
+]
