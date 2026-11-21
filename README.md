@@ -1,6 +1,6 @@
 # Robot Arm
 
-> **Complete folder including sam3.pt:** [Download all archive volumes](https://github.com/edming091092/robot-arm/releases/tag/complete-folder-2026-11-21) and extract `.001` with 7-Zip. See [full download instructions](FULL_DOWNLOAD.md).
+> **Complete folder including sam3.pt:** [Download all archive volumes](https://github.com/edming091092/robot-arm/releases/tag/complete-folder-2026-11-21) and extract `.001` with 7-Zip. Use the [full download instructions](FULL_DOWNLOAD.md) to apply the current source updates after extraction.
 
 English desktop interface for SAM3 text-prompt segmentation, calibrated camera-to-robot XY conversion, and Dobot MG400 movement to a manually entered Z.
 

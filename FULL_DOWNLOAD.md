@@ -9,7 +9,10 @@ images, results, logs, manuals, installers and the original Python cache files.
 The source repository shows code and files below GitHub's ordinary file-size
 limit. Large files and caches are included in the complete release archive.
 
-After extraction, open `robot arm/code/sam3_robot_move/app.py` in VS Code.
+After extraction, download the [current source ZIP](https://github.com/edming091092/robot-arm/archive/refs/heads/main.zip).
+Extract it and copy its `code` folder into `robot arm`, allowing it to replace
+matching files. This applies updates to the archived code while retaining the
+downloaded model and calibration files. Then open `robot arm/code/sam3_robot_move/app.py` in VS Code.
 Install the Python dependencies on the destination computer first; the
 archive does not contain a Python installation or copied virtual environment.
 Calibration belongs to the physical camera/robot setup used to record it.

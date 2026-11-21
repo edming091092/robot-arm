@@ -265,8 +265,8 @@ class PickApp(PromptApp):
             self.clear_targets()
             if camera_index is not None:
                 self.camera_index.set(str(camera_index))
+            self.apply_mapping_resolution()
             if self.capture is not None:
-                self.apply_mapping_resolution()
                 self.continuous = resume
                 self.set_busy(False)
             kind = "Validated mapping" if mapping.get("passed") is True else "Approximate mapping"
@@ -291,15 +291,13 @@ class PickApp(PromptApp):
         super().toggle_camera()
         if opening and self.capture is not None:
             self.clear_targets()
-            if self.mapping:
-                self.apply_mapping_resolution()
 
     def apply_mapping_resolution(self):
-        width, height = self.mapping["image_size"]
-        self.capture.set(cv2.CAP_PROP_FRAME_WIDTH, width)
-        self.capture.set(cv2.CAP_PROP_FRAME_HEIGHT, height)
-        self.image = None
-        self.canvas.delete("all")
+        self.camera_resolution = tuple(self.mapping["image_size"])
+        if self.capture is not None:
+            self.capture.resolution = self.camera_resolution
+            self.image = None
+            self.canvas.delete("all")
 
     def render(self):
         super().render()
@@ -344,7 +342,7 @@ class PickApp(PromptApp):
         super().run()
 
     def infer(self):
-        self.frame_at = time.monotonic()
+        self.frame_at = self.camera_frame_at if self.capture is not None else time.monotonic()
         self.frame_source = self.image_path
         super().infer()
 

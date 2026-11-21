@@ -6,6 +6,7 @@ import argparse
 import hashlib
 import json
 import math
+import multiprocessing
 import os
 import queue
 import sys
@@ -82,6 +83,45 @@ def render_masks(image, masks, confidences):
     return overlay, objects, binary_masks
 
 
+def _load_windows_sam3_checkpoint(model, checkpoint, interactive=False):
+    """Copy detector tensors one at a time to avoid a second model in memory."""
+    import torch
+
+    if interactive:
+        raise ValueError("This checkpoint loader supports SAM3 text detection only.")
+    # PyTorch reads the tensor metadata and storage offsets without loading data.
+    checkpoint_data = torch.load(checkpoint, map_location="meta", weights_only=True)
+    if isinstance(checkpoint_data.get("model"), dict):
+        checkpoint_data = checkpoint_data["model"]
+    destination = model.state_dict()
+    copied = 0
+    with open(checkpoint, "rb") as stream, torch.no_grad():
+        for name, tensor in checkpoint_data.items():
+            if "detector." not in name:
+                continue
+            target = destination.get(name.replace("detector.", ""))
+            if target is None:
+                continue
+            if target.shape != tensor.shape:
+                raise ValueError(f"SAM3 checkpoint tensor {name} has an unexpected shape.")
+            if tensor.numel():
+                storage = tensor.untyped_storage()
+                offset = getattr(storage, "_checkpoint_offset", None)
+                if offset is None:
+                    raise ValueError("This checkpoint must use the standard uncompressed PyTorch ZIP format.")
+                stream.seek(offset)
+                raw = bytearray(storage.nbytes())
+                if stream.readinto(raw) != len(raw):
+                    raise ValueError(f"SAM3 checkpoint is incomplete at tensor {name}.")
+                values = torch.frombuffer(raw, dtype=tensor.dtype)
+                target.copy_(values.as_strided(tensor.shape, tensor.stride(), tensor.storage_offset()))
+                del values, raw
+            copied += 1
+    if not copied:
+        raise ValueError("The checkpoint does not contain SAM3 detector weights.")
+    return model
+
+
 class Segmenter:
     def __init__(self):
         self.predictor = None
@@ -110,16 +150,19 @@ class Segmenter:
         model_key = (str(weights), weights.stat().st_mtime_ns, selected)
         class LocalCheckpointPredictor(SAM3SemanticPredictor):
             def get_model(self):
-                # The installed builder opens the checkpoint as a file object.
-                # Map its filename instead of allocating another full in-RAM
-                # checkpoint copy. The patch is temporary; package files remain unchanged.
                 from unittest.mock import patch
                 from ultralytics.models.sam import build_sam3
+                if os.name == "nt":
+                    device = torch.device("cpu" if selected == "cpu" else "cuda:0")
+                    with torch.device(device), patch.object(build_sam3, "_load_checkpoint", _load_windows_sam3_checkpoint):
+                        return super().get_model()
+
                 original_load = build_sam3.torch_load
+
                 def mapped_load(file, *args, **kwargs):
-                    filename = getattr(file, "name", file)
                     kwargs.update(map_location="cpu", mmap=True)
-                    return original_load(filename, *args, **kwargs)
+                    return original_load(getattr(file, "name", file), *args, **kwargs)
+
                 with patch.object(build_sam3, "torch_load", mapped_load):
                     return super().get_model()
         started = time.perf_counter()
@@ -163,6 +206,58 @@ class Segmenter:
         return overlay, binary, metadata
 
 
+def _run_inference(connection):
+    segmenter = Segmenter()
+    with connection:
+        while True:
+            try:
+                arguments = connection.recv()
+            except EOFError:
+                return
+            try:
+                result = segmenter.predict(*arguments, status=lambda value: connection.send(("status", value)))
+            except Exception as exc:
+                segmenter = Segmenter()
+                connection.send(("error", str(exc)))
+            else:
+                connection.send(("done", result))
+
+
+class CameraStream:
+    def __init__(self, index, resolution):
+        self.resolution = resolution
+        self.frame = None
+        self.error = None
+        self.last_frame_at = time.monotonic()
+        self.stop = threading.Event()
+        self.thread = threading.Thread(target=self._read_frames, args=(index,), daemon=True)
+        self.thread.start()
+
+    def _read_frames(self, index):
+        capture = None
+        try:
+            capture = cv2.VideoCapture(index, cv2.CAP_DSHOW if os.name == "nt" else cv2.CAP_ANY)
+            if not capture.isOpened():
+                raise RuntimeError(f"Could not open camera {index}. Check the index and close other apps using it.")
+            resolution = None
+            while not self.stop.is_set():
+                requested = self.resolution
+                if requested is not None and requested != resolution:
+                    capture.set(cv2.CAP_PROP_FRAME_WIDTH, requested[0])
+                    capture.set(cv2.CAP_PROP_FRAME_HEIGHT, requested[1])
+                    resolution = requested
+                ok, frame = capture.read()
+                if not ok:
+                    raise RuntimeError("Could not read a camera frame. Reopen the camera.")
+                self.last_frame_at = time.monotonic()
+                self.frame = (frame, self.last_frame_at, requested)
+        except Exception as exc:
+            self.error = str(exc)
+        finally:
+            if capture is not None:
+                capture.release()
+
+
 def export_result(folder, overlay, masks, metadata):
     folder = Path(folder)
     if folder.exists() and any(folder.iterdir()):
@@ -187,13 +282,17 @@ class PromptApp:
 
     def __init__(self, root, model):
         self.root = root
-        self.segmenter = Segmenter()
+        self.inference_process = self.inference_connection = None
         self.image = self.overlay = self.photo = None
         self.image_path = None
         self.last_result = None
         self.busy = False
         self.closed = False
         self.capture = None
+        self.stopping_capture = None
+        self.camera_resolution = None
+        self.camera_frame_at = 0
+        self.camera_generation = self.inference_generation = 0
         self.continuous = False
         self.mailbox = queue.Queue()
         self.model = tk.StringVar(value=model or default_weights())
@@ -261,12 +360,13 @@ class PromptApp:
         except ValueError:
             messagebox.showerror("Camera", "Enter a camera index of 0 or higher.")
             return
-        capture = cv2.VideoCapture(index, cv2.CAP_DSHOW if os.name == "nt" else cv2.CAP_ANY)
-        if not capture.isOpened():
-            capture.release()
-            messagebox.showerror("Camera", f"Could not open camera {index}. Check the index and close other apps using the camera.")
+        if self.stopping_capture is not None and self.stopping_capture.thread.is_alive():
+            self.status.set("The camera driver is still closing. If it remains stuck, unplug and reconnect the camera.")
             return
-        self.capture = capture
+        self.stopping_capture = None
+        self.capture = CameraStream(index, self.camera_resolution)
+        self.camera_generation += 1
+        self.camera_frame_at = 0
         self.image = self.overlay = self.last_result = None
         self.canvas.delete("all")
         self.image_path = f"camera:{index}"
@@ -274,13 +374,17 @@ class PromptApp:
         self.camera_button.config(text="Close Camera")
         self.camera_entry.config(state="disabled")
         self.set_busy(False)
-        self.status.set("Camera ready. Enter a prompt and click Start Live Detection.")
+        self.status.set("Opening camera...")
 
     def stop_camera(self):
         self.continuous = False
         if self.capture is not None:
-            self.capture.release()
+            self.capture.stop.set()
+            self.stopping_capture = self.capture
             self.capture = None
+            self.camera_generation += 1
+            self.image = self.overlay = self.last_result = None
+            self.canvas.delete("all")
         self.camera_button.config(text="Open Camera")
         self.camera_entry.config(state="normal")
         self.set_busy(self.busy)
@@ -289,16 +393,21 @@ class PromptApp:
     def camera_tick(self):
         if self.closed:
             return
-        if self.capture is not None:
-            ok, frame = self.capture.read()
-            if ok:
+        stream = self.capture
+        if stream is not None:
+            sample = stream.frame
+            if stream.error or time.monotonic() - stream.last_frame_at > 12:
+                self.stop_camera()
+                self.status.set(stream.error or "The camera stopped responding. Check its connection and reopen it.")
+            elif sample is not None and sample[1] > self.camera_frame_at and sample[2] == stream.resolution:
+                frame, captured_at, _ = sample
+                if not self.camera_frame_at:
+                    self.status.set("Camera ready. Enter a prompt and click Start Live Detection.")
+                self.camera_frame_at = captured_at
                 self.image = frame
                 self.render()
                 if self.continuous and not self.busy:
                     self.infer()
-            else:
-                self.stop_camera()
-                self.status.set("Could not read a camera frame. Reopen the camera.")
         self.root.after(60, self.camera_tick)
 
     def choose_model(self):
@@ -400,16 +509,53 @@ class PromptApp:
         self.set_busy(True)
         if self.last_result is None:
             self.status.set("Running detection. The first run includes model loading.")
+
+        self.inference_generation = self.camera_generation
         def worker():
             try:
-                result = self.segmenter.predict(image, model, prompt, confidence, device,
-                                                status=lambda value: self.mailbox.put(("status", value)))
-                self.mailbox.put(("done", result))
+                if self.inference_process is None:
+                    context = multiprocessing.get_context("spawn")
+                    connection, child = context.Pipe()
+                    process = context.Process(target=_run_inference, args=(child,), daemon=True)
+                    try:
+                        process.start()
+                    except Exception:
+                        connection.close()
+                        raise
+                    finally:
+                        child.close()
+                    self.inference_connection, self.inference_process = connection, process
+                connection, process = self.inference_connection, self.inference_process
+                connection.send((image, model, prompt, confidence, device))
+                deadline = time.monotonic() + 300
+                while not self.closed:
+                    if connection.poll(0.2):
+                        kind, value = connection.recv()
+                        self.mailbox.put((kind, value))
+                        if kind != "status":
+                            return
+                    elif not process.is_alive():
+                        raise RuntimeError("The SAM3 inference process exited unexpectedly.")
+                    elif time.monotonic() >= deadline:
+                        raise TimeoutError("SAM3 did not finish within five minutes.")
+            except (EOFError, BrokenPipeError, ConnectionResetError):
+                self.stop_inference()
+                self.mailbox.put(("error", "The SAM3 inference process exited unexpectedly. Try again or change Device."))
             except Exception as exc:
-                self.segmenter.predictor = None
-                self.segmenter.image_key = None
+                self.stop_inference()
                 self.mailbox.put(("error", str(exc)))
+            finally:
+                if self.closed:
+                    self.stop_inference()
         threading.Thread(target=worker, daemon=True).start()
+
+    def stop_inference(self):
+        process, connection = self.inference_process, self.inference_connection
+        self.inference_process = self.inference_connection = None
+        if process is not None and process.is_alive():
+            process.terminate()
+        if connection is not None:
+            connection.close()
 
     def poll(self):
         if self.closed:
@@ -420,6 +566,10 @@ class PromptApp:
             except queue.Empty:
                 break
             if self.handle_message(kind, value):
+                continue
+            if self.inference_generation != self.camera_generation:
+                if kind in ("done", "error"):
+                    self.set_busy(False)
                 continue
             if kind == "status":
                 if self.last_result is None:
@@ -467,12 +617,10 @@ class PromptApp:
             messagebox.showerror("Save Results", str(exc))
 
     def close(self):
+        self.closed = True
         if self.capture is not None:
             self.stop_camera()
-        if self.busy:
-            self.status.set("Detection is still running. Wait for it to finish or interrupt the program in the terminal.")
-            return
-        self.closed = True
+        self.stop_inference()
         self.root.destroy()
 
 
