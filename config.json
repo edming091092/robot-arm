@@ -1,0 +1,13 @@
+{
+  "robot_ip": "192.168.1.6",
+  "camera_index": 0,
+  "width": 1280,
+  "height": 720,
+  "user_index": 0,
+  "tool_index": 0,
+  "confidence": 0.35,
+  "min_mask_pixels": 100,
+  "calibration_max_error_mm": 2.0,
+  "safe_z_mm": null,
+  "pickup_workspace_mm": null
+}
